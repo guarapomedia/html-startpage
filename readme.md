@@ -17,8 +17,6 @@ This design is the result of looking at different referent and get the most impo
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
 * [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Upgrade to Pro Version](#upgrade-to-pro-version)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
 
@@ -33,9 +31,9 @@ This design is the result of looking at different referent and get the most impo
 
 ## Quick start
 
-- [Download from Github]().
-- [Download from Creative Tim]().
-- Clone the repo: `git clone `.
+- [Download from Github](https://guarapomedia.github.io/html-startpage/).
+- [Download from Guarapo Media](https://guarapomedia.com).
+- Clone the repo: `git clone https://github.com/guarapomedia/html-startpage.git`.
 
 light theme:
 `   --BgColor: #ffffff;
@@ -46,17 +44,18 @@ light theme:
     --ButtonRadius: 10px;
     --FontFamily: Roboto, sans-serif;`
 
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the Material Kit. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Material Kit. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=mk2-github-readme).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+dark theme:
+`   --BgColor: #333333;
+    --PrimaryColor: #16171b;
+    --BgCard: #ffffff;
+    --ButtonColor: #16171b;
+    --ButtonText: #ffffff;
+    --ButtonRadius: 10px;
+    --FontFamily: Roboto, sans-serif;`
 
 ## Licensing
 
-- Licensed under MIT (https://github.com/creativetimofficial/material-kit/blob/master/LICENSE.md)
+- Licensed under MIT (https://github.com/guarapomedia/html-startpage/blob/main/licence.md)
 
 ### Contact Us
 
