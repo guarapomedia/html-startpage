@@ -1,22 +1,21 @@
 # [Startpage for Social Media]() [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.guarapomedia.com/product/startpage&text=Check%20Startpage%20made%20by%20@GuarapoMedia%20#html%20https://www.guarapomedia.com/product/material-kit)
 
+![version](https://img.shields.io/badge/version-0.0.1-blue.svg)
+
 ![image](./assets/images/preview.jpg)
 
-**Startpage** is a **Free HTML templatet** with a simple desing for our own website builder [Wansite.co](https://wansite.co). We create this template for thouse who want to has all the information in one place and with a simple design so the user know where he needs to go.
+ **Startpage** is an **HTML template** with a simple design for our own website builder [Wansite.co](https://wansite.co). We create this template for those who want to have all the information in one place and with a simple design so the user knows where needs to go.
 
-**Startpage** has 3 different types of components, profile, button and button with picture. It can be customize with CSS variables so you can choose the best color.
+**Startpage** has 3 different types of components, profile, button, and Titles. It can be customized with CSS variables so you can choose the best color.
 
-This design is the result of looking at different referent and get the most important part of each one and create an unique and modern template. 
+This design is the result of looking at different referents and getting the most important part of each one and creating a unique and modern template. 
 
 ## Table of Contents
 
 * [Versions](#versions)
 * [Demo](#demo)
 * [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
+* [Themes](#themes)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
 
@@ -34,6 +33,8 @@ This design is the result of looking at different referent and get the most impo
 - [Download from Github](https://guarapomedia.github.io/html-startpage/).
 - [Download from Guarapo Media](https://guarapomedia.com).
 - Clone the repo: `git clone https://github.com/guarapomedia/html-startpage.git`.
+
+## Themes
 
 light theme:
 `   --BgColor: #ffffff;
