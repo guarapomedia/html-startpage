@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    font-family: var(--FontFamily);
+    background-color: var(--BgColor);
+    min-height: 100vh;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--ButtonText);
+  }
+
+  .wrapper {
+    max-width: 800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  /*Profile */
+  .wrapper-profile {
+    background: var(--BgCard);
+    padding: 1.5rem;
+    margin: 2rem auto 1rem;
+    border-radius: var(--ButtonRadius);
+  }
+
+  .wrapper-profile-picture {
+    margin: 0 auto 1rem;
+    width: 96px;
+    height: 96px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .wrapper-profile-picture img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 50%;
+  }
+
+  .wrapper-profile-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 1rem auto 0.5rem;
+    color: var(--ButtonText);
+  }
+
+  .wrapper-profile-description {
+    font-size: 16px;
+    color: var(--ButtonText);
+  }
+
+  .wrapper-profile-icon {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .wrapper-profile-icons>a>i {
+    padding: 12px;
+    margin: 0.5rem;
+    color: var(--ButtonText);
+    font-size: 24px;
+  }
+  .wrapper-profile-icons>a>i:hover {
+    transform: translate(0,-8px);
+  }
+
+  /*Button With Image*/
+  .button-card {
+    background: var(--BgCard);
+    margin: 1rem auto;
+    border-radius: var(--ButtonRadius);
+    overflow: hidden;
+  }
+
+  .button-card:hover {
+    transform: scale(1.02);
+  }
+
+  .button-card-image {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .button-card-text {
+    background: var(--ButtonColor);
+    border-radius: 0 0 var(--ButtonRadius);
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-card-title {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--ButtonText);
+    margin-bottom: 0.5rem;
+  }
+
+  .button-card-description {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--ButtonText);
+  }
+
+  /*Brand logo*/
+  .brand-logo {
+    padding: 0.5rem;
+    max-width: 100px;
+    margin: 1rem auto;
+  }
+
+  /* Paragpraph */
+  .paragraph {
+    color: var(--ButtonText);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 1.5rem auto;
+  }
