@@ -126,10 +126,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-weight: 400;
     font-size: 1rem;
     color: var(--ButtonText);
-    margin-bottom: 0.5rem;
   }
 
   .button-card-description {
+    margin-top: 0.5rem;
     font-weight: 400;
     font-size: 0.8rem;
     color: var(--ButtonText);
