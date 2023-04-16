@@ -93,10 +93,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .wrapper-profile-icons>a>i:hover {
     transform: translate(0,-8px);
   }
-
+  
+  /* Paragpraph */
+  .paragraph {
+    color: var(--PrimaryColor);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 1.5rem auto;
+  }
+  
   /*Button With Image*/
   .button-card {
-    background: var(--BgCard);
+    background: var(--ButtonColor);
     margin: 1rem auto;
     border-radius: var(--ButtonRadius);
     overflow: hidden;
@@ -113,7 +121,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
 
   .button-card-text {
-    background: var(--ButtonColor);
     border-radius: 0 0 var(--ButtonRadius);
     min-height: 75px;
     display: flex;
@@ -142,10 +149,4 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin: 1rem auto;
   }
 
-  /* Paragpraph */
-  .paragraph {
-    color: var(--ButtonText);
-    font-weight: 700;
-    font-size: 1.1rem;
-    margin: 1.5rem auto;
-  }
+  

@@ -15,6 +15,7 @@ This design is the result of looking at different referents and getting the most
 * [Versions](#versions)
 * [Demo](#demo)
 * [Quick Start](#quick-start)
+* [Features](#features)
 * [Themes](#themes)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
@@ -34,6 +35,11 @@ This design is the result of looking at different referents and getting the most
 - [Download from Guarapo Media](https://guarapomedia.com).
 - Clone the repo: `git clone https://github.com/guarapomedia/html-startpage.git`.
 
+## Features
+
+- [Animation on scroll](https://github.com/michalsnik/aos/tree/v2)
+- [Font awesome](https://fontawesome.com/)
+
 ## Themes
 
 light theme:
@@ -48,7 +54,7 @@ light theme:
 dark theme:
 `   --BgColor: #333333;
     --PrimaryColor: #16171b;
-    --BgCard: #ffffff;
+    --BgCard: #333333;
     --ButtonColor: #16171b;
     --ButtonText: #ffffff;
     --ButtonRadius: 10px;
