@@ -37,7 +37,7 @@ This design is the result of looking at different referents and getting the most
 
 ## Features
 
-- [Animation on scroll](https://github.com/michalsnik/aos/tree/v2)
+- [Animation](https://animate.style/)
 - [Font awesome](https://fontawesome.com/)
 
 ## Themes
